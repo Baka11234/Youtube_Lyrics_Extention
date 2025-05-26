@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: youtube-lyrics-backend
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: GENIUS_ACCESS_TOKEN
+        value: your_genius_access_token

@@ -1,0 +1,15 @@
+{
+  "name": "youtube-lyrics-backend",
+  "version": "1.0.0",
+  "description": "Backend for YouTube lyrics extension",
+  "main": "backend.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node backend.mjs"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "cors": "^2.8.5"
+  }
+}
